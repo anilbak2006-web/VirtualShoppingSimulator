@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(to right, white, gray);
+  margin: 0;
+}
+
+.main_container {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 700px;
+  width: 900px;
+
+}
+
+.main_style {
+  border-radius: 32px;
+  background: linear-gradient(to right, yellow, purple);
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+.INFO_H1 {
+  position: relative;
+  gap: 16px;
+  text-align: center;
+  line-height: 1.5;
+  display: flex;
+  margin-top: 16;
+  font-size: 50px;
+  color: green;
+  border-color: black;
+  text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+  user-select: none;
+}
+
+.ctnInfo {
+  position: relative;
+  gap: 16px;
+  line-height: 1.2;
+  font-size: 32px;
+  user-select: none;
+}
+
+.totalcost {
+  display: flex;
+  margin-bottom: 40px;
+  margin-left: 22%;
+
+  height: 40px;
+  width: 550px;
+  padding-right: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  top: 100px;
+
+
+}
+
+.ButtonsContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap: 82px;
+  margin-top: 72px;
+  margin-left: 300px;
+}
+
+.CtnBtn {
+  background-color: green;
+  height: 110px;
+  width: 120px;
+  font-size: larger;
+  border-radius: 32px;
+  box-shadow: 5px 10px 20px 14px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.InfBtn {
+  background-color: yellow;
+  height: 110px;
+  width: 120px;
+  font-size: large;
+  border-radius: 32px;
+  box-shadow: 5px 10px 20px 14px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  position: relative;
+  margin-top: 170px;
+  margin-left: 440px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 2px;
+  user-select: none;
+}
+
+.eror {
+  display: flex;
+  position: relative;
+  line-height: 1.8;
+  font-size: 50px;
+  top: 82px;
+  color: red;
+}
+
+.info {
+  font-size: larger;
+
+
+}
